@@ -1,5 +1,5 @@
 # Pointcloud_Clustering_DBSCAN
-Finding out optimal number of clusters in a pointcloud using DBSCAN algorithm
+Finding out optimal number of unique clusters in a pointcloud using DBSCAN algorithm
 
 <img src="output1.png" width="100%">
 
