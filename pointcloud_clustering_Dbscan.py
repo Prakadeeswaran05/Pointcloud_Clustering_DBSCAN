@@ -160,7 +160,7 @@ class cluster_pointcloud:
             x = df_grouped.iloc[grp_idx,0]
             z = df_grouped.iloc[grp_idx,2]
             ax.scatter(x,y,z,label=grp_name) 
-            ax.scatter(*df_grouped.iloc[grp_idx, [0, 1, 2]].T.values, label=grp_name)
+            #ax.scatter(*df_grouped.iloc[grp_idx, [0, 1, 2]].T.values, label=grp_name)(or do it in one line)
         plt.title('Pointcloud_clustering- Number of unique clusters:{}'.format(optimal_number_of_clusters))
         ax.set_ylabel('y-axis')
         ax.set_xlabel('x-axis')
